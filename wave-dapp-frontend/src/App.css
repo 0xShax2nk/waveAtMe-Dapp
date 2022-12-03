@@ -1,0 +1,89 @@
+
+
+:root {
+	--stripe1: #E7EFF8;
+	--stripe2: #DAE8F3;
+
+	--blue: #7996B3;
+	--green: #759F87;
+	--pink: #D18794;
+	--purple: #9586AC;
+	--yellow: #EFC16D;
+	}
+
+  body {
+    background: repeating-linear-gradient(
+      45deg,
+      var(--stripe1),
+      var(--stripe1) 30px,
+      var(--stripe2) 30px,
+      var(--stripe2) 60px
+      );
+    }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  overflow: hidden;
+	padding: 60px;
+	position: relative;
+}
+
+.container {
+	min-height: 100vh;
+	justify-content: center;
+	overflow: hidden;
+	padding: 60px;
+	position: relative;
+	width: 100%;
+	}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(132, 186, 231);
+  
+  
+}
+
+.imgi{
+
+  border-radius: 1rem;
+  width: 20vw;
+
+}
+
