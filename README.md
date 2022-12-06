@@ -53,5 +53,5 @@ npx hardhat run scripts/deploy.js --network goerli
 ```
 - Hola! your smart contract is deployded to the testnet. Copy the address of the deployed smart contract and save it somewhere. We need that address to interact with deployed smart contract from frontend.
 
-  
+ > Note: You can view transaction for deployed contract on <a href="https://goerli.etherscan.io/">Etherscan<a> by pasting the address of deployed smart contract
 
